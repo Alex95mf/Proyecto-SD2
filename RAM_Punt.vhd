@@ -204,7 +204,7 @@ Begin
 				Q(7):=t(7);
 				Q(8):=t(8);
 				Q(9):=t(9);
-			elsif (RP1>Q(6) and RP1/=Q(9) and RP1/=Q(8) and RP1/=Q(7)) then
+			elsif (RP2>Q(6) and RP2/=Q(9) and RP2/=Q(8) and RP2/=Q(7)) then
 				t:=(Q(1),Q(2),Q(3),Q(4),Q(5),Q(6),RP1,Q(7),Q(8),Q(9));
 				Q(0):=t(0);
 				Q(1):=t(1);
@@ -216,7 +216,7 @@ Begin
 				Q(7):=t(7);
 				Q(8):=t(8);
 				Q(9):=t(9);
-			elsif (RP1>Q(5) and RP1/=Q(9) and RP1/=Q(8) and RP1/=Q(7) and RP1/=Q(6)) then
+			elsif (RP2>Q(5) and RP2/=Q(9) and RP2/=Q(8) and RP2/=Q(7) and RP2/=Q(6)) then
 				t:=(Q(1),Q(2),Q(3),Q(4),Q(5),RP1,Q(6),Q(7),Q(8),Q(9));
 				Q(0):=t(0);
 				Q(1):=t(1);
